@@ -54,12 +54,20 @@ a{
   font-size: 1.5em;
 }
 
+.title-section{
+  color: var(--green);
+  font-size: 3em;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: font-title;
+}
+
 
 /*****************************************************/
 
 
 .home{
-  margin-top: 50px;
   height: 800px;
   width: 100%;
   background-size: cover;
@@ -67,53 +75,98 @@ a{
   background-image: url("../img/home.jpg");
   text-align: center;
   position: relative;
-  box-shadow: inset 0px 40px 40px var(--white), inset 0px -20px 20px var(--white);
+  box-shadow: inset 0px 50px 30px var(--white), inset 0px -50px 30px var(--white);
 }
 
 
 .home-overlay{
   width: 100%;
   height: 800px;
- /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: rgba(235, 224, 206, 0.3); 
   position: absolute;
   display: flex;
   justify-content: center;
+  backdrop-filter: blur(1px);
 }
 
 .home-bloc-description{
-
   font-weight: lighter;
   width: 75%;
   border : 0px solid var(--green);
   background-color: rgba(255,255,255,.7);
   padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin: 0 auto!important;
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
-  font-family: font-title;
 }
 
 .home-description{
   color : var(--green);
   font-weight: lighter;
-  font-size: 3em;
+  font-size: 3.5em;
+  font-family: font-title;
+  padding-top: 40px;
+  padding-bottom: 45px;
 }
 
-.home-btn-cta-container{
-  padding-top: 50px;
+.home-subdescription{
+  color : var(--green);
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: 'montserrat', sans-serif;
 }
+
 
 .home-btn-cta{
-  border : 0px solid var(--white);
-  color : var(--white);
+  border : 1px solid var(--green);
+  color : var(--green);
   padding: 8px 20px;
-  background-color: var(--main-color);
+  background-color: transparent;
+}
+
+.home-btn-cta:hover{
+  background-color: var(--green);
+  color : var(--white);
 }
 
 
 /*****************************************************/
 
+.container-prestation{
+  color: var(--green);
+  margin-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container-prestation-detail{
+  padding: 25px;
+  border : 1px solid var(--beige);
+}
+
+.subtitle-prestation{
+  font-size: 2em;
+  font-family: font-title;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.name-prestation{
+  white-space: nowrap;
+}
+
+.underline-prestation{
+  width: 100%;
+  border-bottom: 1px solid var(--beige);
+}
+
+.price-prestation{
+  text-align: right;
+  min-width: 50px;
+}
 
 
 .bloc-footer{
