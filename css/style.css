@@ -63,10 +63,6 @@ a{
   font-family: font-title;
 }
 
-.container{
-  padding-top : 50px!important
-}
-
 
 /*****************************************************/
 
@@ -110,7 +106,7 @@ a{
 .home-description{
   color : var(--green);
   font-weight: lighter;
-  font-size: 3.5em;
+  font-size: 4em;
   font-family: font-title;
   padding-top: 30px;
   padding-bottom: 35px;
@@ -139,8 +135,14 @@ a{
 
 /*****************************************************/
 
+.container-prestations{
+  padding-top: 40px;
+}
+
+
 .container-prestation{
   color: var(--green);
+  padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
 }
