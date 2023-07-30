@@ -106,7 +106,7 @@ a{
 .home-description{
   color : var(--green);
   font-weight: lighter;
-  font-size: 4em;
+  font-size: 3.7em;
   font-family: font-title;
   padding-top: 30px;
   padding-bottom: 35px;
@@ -114,7 +114,7 @@ a{
 
 .home-subdescription{
   color : var(--green);
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
   font-family: 'montserrat', sans-serif;
 }
