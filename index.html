@@ -45,10 +45,10 @@
           <a class="nav-link menu-underline" href="#">ACCUEIL</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-underline" href="#a-prestations">PRESTATIONS</a>
+          <a class="nav-link menu-underline pointer" onclick="javascript:scrollToAncre('aboutme')">À PROPOS DE MOI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu-underline" href="#a-giftcard">À PROPOS DE MOI</a>
+          <a class="nav-link menu-underline pointer" onclick="javascript:scrollToAncre('prestations')">PRESTATIONS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link menu-underline" href="#a-find">CARTE CADEAU</a>
@@ -71,9 +71,21 @@
     </div>
   </div>
 </div>
-<div class="container container-prestations"  id="a-prestations">
+<div class="container container-prestations" id="aboutme">
   <div class="row">
-    
+    <div class="d-flex flex-column">
+      <div class="title-section">À propos de moi</div>
+      <div>
+        <div class="title-section-underline"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    COntenu
+    </div>
+</div>
+<div class="container container-prestations" id="prestations">
+  <div class="row">
     <div class="d-flex flex-column">
       <div class="title-section">Prestations</div>
       <div>
@@ -324,7 +336,7 @@
 <br>
 </body>
 <footer>
-v.4
+v.5
 </footer>
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

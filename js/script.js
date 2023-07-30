@@ -1,6 +1,6 @@
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
-  });
+});
 
  window.onload = function(){
     document.querySelector('#input-color').addEventListener('change', function() {
@@ -13,10 +13,12 @@ $('.navbar-nav>li>a').on('click', function(){
 
 };
 
+function scrollToAncre(value){
+    $('html, body').scrollTop($("#"+value).offset().top);
+}
+
 document.addEventListener("DOMContentLoaded", function(){
-      
     window.addEventListener('scroll', function() {
-         
       if (window.scrollY > 300) {
         document.getElementById('navbar_top').classList.add('fixed-top');
         navbar_height = document.querySelector('.navbar').offsetHeight;
@@ -27,5 +29,5 @@ document.addEventListener("DOMContentLoaded", function(){
         document.body.style.paddingTop = '0';
       } 
     });
-  }); 
+}); 
 
