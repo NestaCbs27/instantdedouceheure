@@ -57,8 +57,8 @@ a{
 .title-section{
   color: var(--green);
   font-size: 3.5em;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 70px;
   text-align: center;
   font-family: font-title;
 }
@@ -135,14 +135,9 @@ a{
 
 /*****************************************************/
 
-.container-prestations{
-  padding-top: 40px;
-}
-
 
 .container-prestation{
   color: var(--green);
-  padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -156,7 +151,7 @@ a{
 .subtitle-prestation{
   font-size: 2em;
   font-family: font-title;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
