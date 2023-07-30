@@ -56,7 +56,7 @@ a{
 
 .title-section{
   color: var(--green);
-  font-size: 3em;
+  font-size: 3.5em;
   padding-top: 70px;
   padding-bottom: 40px;
   text-align: center;
@@ -145,13 +145,14 @@ a{
 .container-prestation-detail{
   padding: 25px;
   border : 1px solid var(--beige);
+  min-height: 810px;
 }
 
 .subtitle-prestation{
   font-size: 2em;
   font-family: font-title;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .name-prestation{
@@ -167,6 +168,8 @@ a{
   text-align: right;
   min-width: 50px;
 }
+
+/*****************************************************/
 
 
 .bloc-footer{
