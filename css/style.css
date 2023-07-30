@@ -225,9 +225,8 @@ a{
   background-color: rgba(255,255,255,.7)!important;
    /*box-shadow: 0 3px 6px 0 rgba(128,156,134,.2);*/
    z-index: 99;
-  /* position : sticky;
+   position : sticky;
    top: 0;
-   height: 80px;*/
    color : var(--green);
    backdrop-filter: blur(4px);
    -webkit-backdrop-filter: blur(4px);
