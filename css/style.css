@@ -58,9 +58,17 @@ a{
   color: var(--green);
   font-size: 3.5em;
   padding-top: 100px;
-  padding-bottom: 70px;
+
   text-align: center;
   font-family: font-title;
+}
+
+.title-section-underline{
+  width: 70px;
+  border-bottom: 1px solid var(--green);
+  margin : 0 auto;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
 }
 
 
@@ -138,6 +146,7 @@ a{
 
 .container-prestation{
   color: var(--green);
+  margin-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
 }
