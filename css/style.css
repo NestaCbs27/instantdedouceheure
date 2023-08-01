@@ -181,6 +181,27 @@ a{
 /*****************************************************/
 
 
+.container-aboutme{
+  text-align: center;
+  color : var(--gray);
+  padding : 20px;
+}
+
+.sentence-aboutme{
+  margin-top: 15px;
+}
+
+.sentence-aboutme-nb{
+  font-size: 0.8em;
+  margin-top: 60px;
+}
+
+.notabene{
+  color : var(--green)
+}
+
+
+/*****************************************************/
 .bloc-footer{
   background-color: #000;
   color :var(--green);;
