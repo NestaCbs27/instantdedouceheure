@@ -244,6 +244,13 @@ a{
   margin-top: 25px;
 }
 
+.sentence-giftcard-nb{
+  font-size: 0.8em;
+  margin-top: 50px;
+  color : var(--green)
+}
+
+
 
 
 
