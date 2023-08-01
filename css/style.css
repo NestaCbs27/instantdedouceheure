@@ -14,6 +14,7 @@
     --black: #000000;
     --gray : #808285;
     --beige: #EBE0CE;
+    --beige-fonce : #CCC3B4;
 }
 
 html {
@@ -58,7 +59,7 @@ a{
   color: var(--green);
   font-size: 3.5em;
   padding-top: 100px;
-
+  margin-bottom: 15px;
   text-align: center;
   font-family: font-title;
 }
@@ -160,7 +161,7 @@ a{
 .subtitle-prestation{
   font-size: 2em;
   font-family: font-title;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -184,21 +185,66 @@ a{
 .container-aboutme{
   text-align: center;
   color : var(--gray);
-  padding : 20px;
+  padding-left : 20px;
+  padding-right : 20px;
+
 }
 
 .sentence-aboutme{
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .sentence-aboutme-nb{
   font-size: 0.8em;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .notabene{
   color : var(--green)
 }
+
+
+/*****************************************************/
+
+
+.container-giftcard{
+  width: 100%;
+  padding: 25px;
+  padding-top: 80px;
+  text-align: center;
+  color: var(--gray);
+}
+
+.giftcard-container-description {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  border : 1px solid var(--beige);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+
+.giftcard-img {
+  position: absolute;
+  top: 0; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: auto; 
+  height: auto; 
+  background-color: var(--white);
+
+  padding: 25px;
+}
+
+
+.sentence-giftcard{
+  margin-top: 25px;
+}
+
+
 
 
 /*****************************************************/
@@ -265,10 +311,13 @@ a{
     text-align: center!important;
     padding-left: 20px!important;
     padding-right: 20px!important;
-
     font-weight: 300;
     font-size: 14px;
  }
+
+ .nav-link:hover {
+  color : var(--beige-fonce)!important;
+}
 
  
  
@@ -292,11 +341,11 @@ a{
   content: "";
   position: absolute;
   display: block;
-  width: 100%;
+  width:  100%;
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: var(--green);;
+  background-color: var(--beige-fonce);;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -323,6 +372,8 @@ a{
     display: none;
   }
 }
+
+
 
 
 
