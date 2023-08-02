@@ -1,6 +1,7 @@
 @font-face {
   font-family: font-title;
   src: url(../fonts/amazone_bt.ttf);
+  font-display: swap;
 }
 
 :root {
