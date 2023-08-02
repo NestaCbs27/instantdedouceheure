@@ -412,6 +412,12 @@ a{
   .title{
     display: none;
   }
+  .anchor{
+    display: block;
+    height: 270px; /*same height as header*/
+    margin-top: -270px; /*same height as header*/
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 991px) {
