@@ -185,8 +185,8 @@ a{
 .container-aboutme{
   text-align: center;
   color : var(--gray);
-  padding-left : 20px;
-  padding-right : 20px;
+  padding-left : 25px;
+  padding-right : 25px;
 
 }
 
@@ -235,7 +235,6 @@ a{
   width: auto; 
   height: auto; 
   background-color: var(--white);
-
   padding: 25px;
 }
 
@@ -251,7 +250,38 @@ a{
 }
 
 
+/*****************************************************/
 
+.container-contact{
+  text-align: center;
+  padding-left : 25px;
+  padding-right : 25px;
+  padding-top : 50px;
+  padding-bottom : 50px;
+  color: var(--green);
+}
+
+.contact-container-description {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  border : 1px solid var(--beige);
+  padding : 25px;
+  margin-bottom: 60px;
+  font-size: 0.8em;
+}
+
+
+.contact-img {
+  position: absolute;
+  top: 0; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: auto; 
+  height: auto; 
+  background-color: var(--white);
+  padding: 25px;
+}
 
 
 /*****************************************************/
@@ -379,7 +409,6 @@ a{
     display: none;
   }
 }
-
 
 
 
