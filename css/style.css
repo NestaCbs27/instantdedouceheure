@@ -9,12 +9,12 @@
 }
 
 :root {
-    --green: #809C86;
-    --white: #FFFFFF;
-    --black: #000000;
-    --gray : #808285;
-    --beige: #EBE0CE;
-    --beige-fonce : #CCC3B4;
+  --green: #809C86;
+  --white: #FFFFFF;
+  --black: #000000;
+  --gray : #808285;
+  --beige: #EBE0CE;
+  --beige-fonce : #CCC3B4;
 }
 
 html {
@@ -25,7 +25,6 @@ html {
 body{
   font-family: 'montserrat', sans-serif;
 }
-
 
 .hidden{
   display: none;
@@ -75,7 +74,6 @@ a{
 
 /*****************************************************/
 
-
 .home{
   height: 800px;
   width: 100%;
@@ -86,7 +84,6 @@ a{
   position: relative;
   box-shadow: inset 0px 50px 30px var(--white), inset 0px -50px 30px var(--white);
 }
-
 
 .home-overlay{
   width: 100%;
@@ -144,7 +141,6 @@ a{
 
 /*****************************************************/
 
-
 .container-prestation{
   color: var(--green);
   margin-top: 25px;
@@ -187,7 +183,7 @@ a{
   color : var(--gray);
   padding-left : 25px;
   padding-right : 25px;
-
+  
 }
 
 .sentence-aboutme{
@@ -285,10 +281,7 @@ a{
 
 
 /*****************************************************/
-.bloc-footer{
-  background-color: #000;
-  color :var(--green);;
-}
+
 
 .container-footer{
   width: 100%; 
@@ -296,20 +289,7 @@ a{
   padding-bottom : 50px; 
 }
 
-.padding-top-30-px{
-  padding-top: 30px;
-}
-
-.phone-container{
-  border: 1px solid var(--green);;
-  padding: 8px 20px;
-}
-
-.phone-container:hover{
-  background-color: var(--green);;
-  color :#000;
-}
-   
+/*****************************************************/
 
 .nav-logo{
   text-align: center;
@@ -319,58 +299,56 @@ a{
 }
 
 .img-logo{
-    border-radius: 100%;
-    background-color: var(--beige); 
+  border-radius: 100%;
+  background-color: var(--beige); 
 }
-
-
 
 .navbar {
   background-color: rgba(255,255,255,.7)!important;
-   /*box-shadow: 0 3px 6px 0 rgba(128,156,134,.2);*/
-   z-index: 99;
-   position : sticky;
-   top: 0;
-   color : var(--green);
-   backdrop-filter: blur(4px);
-   -webkit-backdrop-filter: blur(4px);
-   border-bottom: solid 1px var(--beige);
- }
- 
- .fixed-top {
-   top: -40px;
-   transform: translateY(40px);
-   transition: transform .3s;
- }
- 
- 
- .navbar-nav .nav-link {
-    text-align: center!important;
-    padding-left: 20px!important;
-    padding-right: 20px!important;
-    font-weight: 300;
-    font-size: 14px;
- }
+  /*box-shadow: 0 3px 6px 0 rgba(128,156,134,.2);*/
+  z-index: 99;
+  position : sticky;
+  top: 0;
+  color : var(--green);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: solid 1px var(--beige);
+}
 
- .nav-link:hover {
+.fixed-top {
+  top: -40px;
+  transform: translateY(40px);
+  transition: transform .3s;
+}
+
+
+.navbar-nav .nav-link {
+  text-align: center!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.nav-link:hover {
   color : var(--beige-fonce)!important;
 }
 
- 
- 
- .navbar-light .navbar-toggler {
-   border : 0px!important;
- }
- 
- .custom-toggler .navbar-toggler-icon {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(128,156,134)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
- }
- 
- .custom-toggler.navbar-toggler {
-   border-color: var(--green)
- } 
 
- .menu-underline {
+
+.navbar-light .navbar-toggler {
+  border : 0px!important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(128,156,134)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: var(--green)
+} 
+
+.menu-underline {
   position: relative;
 }
 
@@ -391,6 +369,7 @@ a{
   transform: scaleX(1);
 }
 
+/*****************************************************/
 
 @media (max-width: 991px) {
   .navbar-brand{
@@ -398,10 +377,10 @@ a{
   }
   .navbar-nav .nav-link {
     padding: 15px!important;
- }
- .title{
-  display: none;
- }
+  }
+  .title{
+    display: none;
+  }
 }
 
 @media (min-width: 991px) {

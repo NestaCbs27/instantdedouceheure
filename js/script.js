@@ -6,6 +6,10 @@ function scrollToAncre(value){
     document.getElementById(value).scrollIntoView();
 }
 
+function callPhoneNumber(){
+  window.open('tel:0673052057', '_self');
+}
+
 
 /*
  window.onload = function(){
