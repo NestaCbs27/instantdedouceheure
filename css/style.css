@@ -84,7 +84,7 @@ a{
   width: 100%;
   background-size: cover;
   background-position: center center;
-  background-image: url("../img/home.jpg");
+  background-image: url("../img/home.webp");
   text-align: center;
   position: relative;
   box-shadow: inset 0px 50px 30px var(--white), inset 0px -50px 30px var(--white);
